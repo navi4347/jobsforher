@@ -1,0 +1,42 @@
+import React from 'react'
+import './Accounts.css';
+import left from '../Assets/Svg/go-back-left-arrow.svg';
+import edit from '../Assets/Svg/edit.svg';
+
+import { Link} from 'react-router-dom';
+
+ function MyAccount() {
+  return (
+    <div className='MyAccount'>
+<h4>
+  Dashboard | <span><Link to="/MyAccount">My Account</Link></span>
+</h4>
+<div className='pr'>
+<div className='cha'>
+<img src={left} alt="Profile Icon" style={{ width: '20px', height: '20px' }} />&nbsp;&nbsp;
+  <h2>MyAccount</h2>
+  </div>
+  <div className='chb'>
+  <h2>My Profile</h2>&nbsp;&nbsp;
+<img src={edit} alt="Profile Icon" style={{ width: '20px', height: '20px' }} />
+  </div>
+  <div className='chc'>
+<img src={edit} alt="Profile Icon" style={{ width: '20px', height: '20px' }} />
+<h2>Divya Chatterjee</h2>&nbsp;&nbsp;
+  </div>
+  <div className='chd'>
+  <p>About Me</p>
+<p>Microsoft enables digital transformation for the era of an intelligent cloud and an intelligent edge. Its mission is to empower every person and every organization on the planet to achieve more. Microsoft set up its India operations in 1990. Microsoft in India offers its global cloud services from local data centers to accelerate digital transformation across Indian start-ups, businesses, and government agencies.</p> 
+ </div>
+  <div className='che'>
+  <h2>My Account Settings</h2>
+   </div>
+  <div className='chf'>
+  <h2>Application Settings</h2> 
+  </div>
+
+</div>
+    </div>
+  )
+}
+export default MyAccount;

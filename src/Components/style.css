@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.side-nav{
+    background-color: #404040;
+    font-size: 20px;
+    width: auto;
+   position: fixed;
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 30px; 
+  }
+  ul li a{
+    color: #B2B2B2;
+  }
+  .resp{
+    width: 60px;
+    height: 60px;
+  }
+  h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15dp;
+    color: #f1f1f1;
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .myh1{
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+    font-weight: lighter;
+    text-transform: capitalize;
+  }
+  h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  p1{
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+  }
+  .hp {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .hp .image {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .side-nav {
+      display: none;
+    }
+  }
+p{
+    margin: 0;
+    color: #99CA3B;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-left: 12px;
+}
+p a{
+    color: #99ca3b;
+  }
+p a:focus,
+  p a:active {
+    color: #99ca3b;
+  }
+.link {
+  color: inherit; 
+  text-decoration: none;
+  transition: color 0.2s; 
+  color: #B2B2B2;
+}
+
+
+.link:active, .link:focus, .link:hover {
+  color: #99ca3b; 
+}
+
+
+@media (min-width: 769px) {
+  .mobnav {
+    display: none;
+  }
+}
+
+.horizontal-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px #00000033;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.mok{
+  background-color: #fff;
+  align-items: center;
+  border: 1px solid #00000033;
+  height: 100%;
+  width: 100%;
+}
+.mok .nav-link{
+  color: #000;
+  font-size: 14.5px;
+}
+.mok .nav-link:hover,
+.mok .nav-link:active,
+.mok .nav-link:focus {
+  color: #99CA3B; 
+}
+
+p span a{
+text-decoration: none;
+}
+@media (max-width: 769px) {
+  .MyAccount .pap {
+    display: none;
+  }
+}
+#specifyColor {
+  accent-color: #99CA3B;
+}
+
+
