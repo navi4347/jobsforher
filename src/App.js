@@ -37,7 +37,6 @@ function App() {
         </div>
         <nav className="nav-links">
           <div style={{ marginLeft: '80px' }}>
-            {/* Navl component within the header */}
             <Navl />
           </div>
         </nav>
